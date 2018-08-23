@@ -1,10 +1,10 @@
 spring.jackson.default-property-inclusion=non_null
-encryption.secret.key=${encryption.secret.key.value:MySuperSecretKey}
+encryption.secret.key=${encryption.secret.key.value:"MySuperSecretKey"}
 
 # Datasource
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.datasource.type=com.zaxxer.hikari.HikariDataSource
 spring.datasource.hikari.data-source-properties.pool-name=realwave-iam
-spring.datasource.url=${spring.datasource.url.value:jdbc:postgresql://localhost:5432/rw_iam}
-spring.datasource.username=${spring.datasource.username.value:admin}
-spring.datasource.password=${spring.datasource.password.value:changeit}
+spring.datasource.url=${spring.datasource.url.value:"jdbc:postgresql://localhost:5432/rw_iam"}
+spring.datasource.username=${spring.datasource.username.value:"admin"}
+spring.datasource.password=${spring.datasource.password.value:"changeit"}
