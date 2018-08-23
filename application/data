@@ -1,4 +1,4 @@
-server.port=8181
+server.port=${server.port.value:8181}
 
 # Sync
 grpc.port=${grpc.port.value:7073}
