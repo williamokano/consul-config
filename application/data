@@ -1,0 +1,6 @@
+server.port=8181
+
+# Sync
+grpc.port=${grpc.port.value:7073}
+grpc.secret=${grpc.secret.value}
+realwave.iam.sync.enabled=${realwave.iam.sync.enabled:false}
