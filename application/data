@@ -1,6 +1,6 @@
-server.port=${server.port.value:"8181"}
+server.port=${values.server.port}
 
 # Sync
-grpc.port=${grpc.port.value:"7073"}
-grpc.secret=${grpc.secret.value:"MySuperSecretGrpc"}
-realwave.iam.sync.enabled=${realwave.iam.sync.enabled:"false"}
+grpc.port=${values.grpc.port}
+grpc.secret=${values.grpc.secret}
+realwave.iam.sync.enabled=${values.realwave.iam.sync.enabled}

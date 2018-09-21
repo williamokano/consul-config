@@ -1,2 +1,3 @@
 consul.git.name=William
-some.super.secret.property=HelloWOrld
+some.super.secret.property=HelloWorld
+some.stuff=${should.say.william.okano}
