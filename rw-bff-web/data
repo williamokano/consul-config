@@ -1,1 +1,2 @@
-spring.connection.sample=${values.hakuna.matata}
+spring.connection.sample=${replaced}
+spring.connection.sample2=${test.with.dots}
