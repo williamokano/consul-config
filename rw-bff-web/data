@@ -1,2 +1,2 @@
-spring.connection.sample=${replaced}
-spring.connection.sample2=${test.with.dots}
+spring.connection.sample=${values.spring.connection.sample}
+spring.connection.sample2=${values.spring.connection.sample2}
